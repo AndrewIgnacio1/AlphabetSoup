@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add babel-preset-react@6.24.1 bebel-preset-env@1.5.2
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  14.5.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bebel-preset-env: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66058:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:129541:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:130513:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:130435:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1226:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "indecision-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/AndrewIgnacio1/sample-react-project",
+    "author": "Andrew Ignacio",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
